@@ -10,7 +10,7 @@ int Binary_Search(int key,int high,int low,vector<int>arr){
         //comparing with middle element of array
         //from low to end subarray
         int mid=low+(high-low)/2;
-        if(arr[mid]==key){\
+        if(arr[mid]==key){
             //Exit the loop with "return" middle index;
             return mid;
         }else if(arr[mid]>key){
