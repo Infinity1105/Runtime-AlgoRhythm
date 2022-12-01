@@ -11,7 +11,7 @@ void DNF(vector<int> &nums)
     // we will swap elements from array,
     // such that
     //  nums[0........low-1]---->>0
-    //  nums[mid+1...high-1]---->>1
+    //  nums[low......mid-1]---->>1
     //  nums[high+1.......n]---->>2
 
     int low = 0, mid = 0, high = n - 1;
